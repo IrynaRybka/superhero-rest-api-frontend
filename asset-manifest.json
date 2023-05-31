@@ -1,22 +1,19 @@
 {
   "files": {
     "main.css": "/superhero-rest-api-frontend/static/css/main.7b13a063.css",
-    "main.js": "/superhero-rest-api-frontend/static/js/main.3462d0da.js",
-    "static/css/743.0fe2bb54.chunk.css": "/superhero-rest-api-frontend/static/css/743.0fe2bb54.chunk.css",
-    "static/js/743.ab156e68.chunk.js": "/superhero-rest-api-frontend/static/js/743.ab156e68.chunk.js",
-    "static/css/838.14cbff2a.chunk.css": "/superhero-rest-api-frontend/static/css/838.14cbff2a.chunk.css",
-    "static/js/838.1d6cf3ab.chunk.js": "/superhero-rest-api-frontend/static/js/838.1d6cf3ab.chunk.js",
-    "static/media/noPosterHero.jpg": "/superhero-rest-api-frontend/static/media/noPosterHero.754eb002b25a12c65714.jpg",
+    "main.js": "/superhero-rest-api-frontend/static/js/main.d38834f2.js",
+    "static/js/876.1c80dae8.chunk.js": "/superhero-rest-api-frontend/static/js/876.1c80dae8.chunk.js",
+    "static/css/737.b73bca44.chunk.css": "/superhero-rest-api-frontend/static/css/737.b73bca44.chunk.css",
+    "static/js/737.639cd5bc.chunk.js": "/superhero-rest-api-frontend/static/js/737.639cd5bc.chunk.js",
     "index.html": "/superhero-rest-api-frontend/index.html",
     "main.7b13a063.css.map": "/superhero-rest-api-frontend/static/css/main.7b13a063.css.map",
-    "main.3462d0da.js.map": "/superhero-rest-api-frontend/static/js/main.3462d0da.js.map",
-    "743.0fe2bb54.chunk.css.map": "/superhero-rest-api-frontend/static/css/743.0fe2bb54.chunk.css.map",
-    "743.ab156e68.chunk.js.map": "/superhero-rest-api-frontend/static/js/743.ab156e68.chunk.js.map",
-    "838.14cbff2a.chunk.css.map": "/superhero-rest-api-frontend/static/css/838.14cbff2a.chunk.css.map",
-    "838.1d6cf3ab.chunk.js.map": "/superhero-rest-api-frontend/static/js/838.1d6cf3ab.chunk.js.map"
+    "main.d38834f2.js.map": "/superhero-rest-api-frontend/static/js/main.d38834f2.js.map",
+    "876.1c80dae8.chunk.js.map": "/superhero-rest-api-frontend/static/js/876.1c80dae8.chunk.js.map",
+    "737.b73bca44.chunk.css.map": "/superhero-rest-api-frontend/static/css/737.b73bca44.chunk.css.map",
+    "737.639cd5bc.chunk.js.map": "/superhero-rest-api-frontend/static/js/737.639cd5bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b13a063.css",
-    "static/js/main.3462d0da.js"
+    "static/js/main.d38834f2.js"
   ]
 }
