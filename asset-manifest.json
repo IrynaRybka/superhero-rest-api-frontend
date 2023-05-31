@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/superhero-rest-api-frontend/static/css/main.7b13a063.css",
-    "main.js": "/superhero-rest-api-frontend/static/js/main.4cc3c8f6.js",
+    "main.js": "/superhero-rest-api-frontend/static/js/main.b308ff70.js",
     "static/js/876.1c80dae8.chunk.js": "/superhero-rest-api-frontend/static/js/876.1c80dae8.chunk.js",
     "static/css/482.172e2cc1.chunk.css": "/superhero-rest-api-frontend/static/css/482.172e2cc1.chunk.css",
     "static/js/482.5f82b52a.chunk.js": "/superhero-rest-api-frontend/static/js/482.5f82b52a.chunk.js",
     "index.html": "/superhero-rest-api-frontend/index.html",
     "main.7b13a063.css.map": "/superhero-rest-api-frontend/static/css/main.7b13a063.css.map",
-    "main.4cc3c8f6.js.map": "/superhero-rest-api-frontend/static/js/main.4cc3c8f6.js.map",
+    "main.b308ff70.js.map": "/superhero-rest-api-frontend/static/js/main.b308ff70.js.map",
     "876.1c80dae8.chunk.js.map": "/superhero-rest-api-frontend/static/js/876.1c80dae8.chunk.js.map",
     "482.172e2cc1.chunk.css.map": "/superhero-rest-api-frontend/static/css/482.172e2cc1.chunk.css.map",
     "482.5f82b52a.chunk.js.map": "/superhero-rest-api-frontend/static/js/482.5f82b52a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b13a063.css",
-    "static/js/main.4cc3c8f6.js"
+    "static/js/main.b308ff70.js"
   ]
 }
