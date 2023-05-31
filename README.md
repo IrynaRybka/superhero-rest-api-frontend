@@ -14,5 +14,5 @@
 
 ![About Hero](https://github.com/IrynaRybka/superhero-rest-api-frontend/blob/master/readmeImg/heroDetail.jgp)
 
-![Create Hero]([https://github.com/IrynaRybka/superhero-rest-api-frontend/blob/master/readmeImg/createHero.jgp]
+![Create Hero](https://github.com/IrynaRybka/superhero-rest-api-frontend/blob/master/readmeImg/createHero.jgp)
 
