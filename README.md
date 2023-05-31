@@ -9,8 +9,10 @@
    Эта страница будет автоматически перезагружаться после сохранения изменений в
    файлах проекта.
 
+
 ![Главная страничка приложения](https://github.com/IrynaRybka/superhero-rest-api-frontend/blob/master/readmeImg/homePage.jgp)
 
 ![About Hero](https://github.com/IrynaRybka/superhero-rest-api-frontend/blob/master/readmeImg/heroDetail.jgp)
 
 ![Create Hero](https://github.com/IrynaRybka/superhero-rest-api-frontend/blob/master/readmeImg/createHero.jgp)
+
