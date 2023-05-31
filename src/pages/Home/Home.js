@@ -21,10 +21,9 @@ export const Home = () => {
         console.error(error);
       }
     };
-
     fetchData();
   }, []);
-
+ 
   useEffect(() => {
     setVisibleData(data.slice(0, currentPage * itemsPerPage));
   }, [data, currentPage]);
@@ -52,7 +51,7 @@ export const Home = () => {
               </Card>
             ))}
           </ul>
-          {visibleData.length < data.length && <Button onClick={handleClickLoadMore}>Load More</Button>}
+             {data.length === visibleData.length ? (<Button disabled={true} onClick={handleClickLoadMore} style={{ backgroundColor: '#F0F0F0', color: '#151718', border: 'none' }}>Load More</Button>) : (<Button onClick={handleClickLoadMore}>Load More</Button>) } 
         </>
       )}
     </div>

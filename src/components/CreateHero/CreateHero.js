@@ -71,7 +71,7 @@ export const Hero = () => {
       
         <Label>
           Images:
-          <Input type="text" name="images" value={formData.images} onChange={handleChange} placeholder='Copy URL picture in internet and paste' />
+          <Input type="text" name="images" value={formData.images} onChange={handleChange} placeholder='Copy URL picture in internet and paste'/>
         </Label>
         <Button type="submit">Create Hero</Button>
       </form>
