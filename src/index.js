@@ -9,7 +9,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename='superhero-rest-api-frontend'>
-      <App />
+      <App  />
       <ToastContainer />
     </BrowserRouter>
   </React.StrictMode>

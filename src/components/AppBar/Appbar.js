@@ -5,7 +5,7 @@ import css from './AppBar.module.css';
 
 const navItems = [
   { href: '/', text: 'Home', icon: BiHome },
-  { href: 'hero', text: 'Search hero', icon: GiBattleMech },
+  { href: 'hero', text: 'Create hero', icon: GiBattleMech },
 ];
 
 export const Appbar = () => {

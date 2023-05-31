@@ -35,7 +35,13 @@ export const getHeroes = async (offset) => {
   };
 
 export const getOneHero = async id => {
-    const data = await axios.get(
-        `${urlHero}/${id}?ts=${ts}&apikey=${apiKey}&hash=${hash}`);
-    return data;
+  const data = await axios.get(
+      `http://localhost:3000/api/hero/${id}`);
+   return data;
+}
+
+export const deleteOneHero = async id => {
+  const data = await axios.delete(
+      `http://localhost:3000/api/hero/${id}`);
+   return data;
 }

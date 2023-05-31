@@ -1,37 +1,54 @@
 import css from './HeroDetails.module.css';
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { getOneHero } from 'api/fetchApiHero';
+import { useParams, useNavigate } from 'react-router-dom';
+import { getOneHero, deleteOneHero } from 'api/fetchApiHero';
+import { Button } from 'components/CreateHero/CreateHero.styled';
 
 export const HeroDetails = () => {
-  const { movieId } = useParams();
-  const [hero, setHero] = useState(null);
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const [hero, setHero] = useState({});
 
   useEffect(() => {
-    const fetchHeroesData = async () => {
+    const fetchData = async () => {
       try {
-        const data = await getOneHero(movieId);
-        setHero(data.data.data.results[0]);
+        const response = await getOneHero(id);
+        setHero(response.data.hero);
       } catch (error) {
-        console.error(error.message);
+        console.error(error);
       }
     };
-    fetchHeroesData();
-  }, [movieId]);
+
+    fetchData();
+  }, [id]);
+
+  const handleDelete = async () => {
+    try {
+      await deleteOneHero(id);
+      navigate("/");
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   return (
     <div className={css.heroDetails}>
       {hero && (
         <div>
-          <h1>{hero.name}</h1>
-          <img src={`${hero.thumbnail.path}.${hero.thumbnail.extension}`} width="280" alt={hero.name} />
-          <p>Stories: {hero.stories.available}</p>
+          <h1>{hero.nickname}</h1>
+          <img src={hero.images} width="280" alt={hero.nickname} />
+          <p>Real name: {hero.real_name}</p>
+          <h2>Description</h2>
+          <p>{hero.origin_description}</p>
           <div>
-            <h2>Series</h2>
-            <p>{hero.series.items.map(item => item.name).join(', ')}</p>
+            <h2>Superpowers</h2>
+            <p>{hero.superpowers}</p>
           </div>
         </div>
       )}
+      <Button type="button" onClick={handleDelete}>
+        Delete Hero
+      </Button>
     </div>
   );
 };
