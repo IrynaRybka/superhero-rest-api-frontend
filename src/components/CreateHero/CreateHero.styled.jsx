@@ -1,10 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.form`
+      display: block;
+   position: absolute;
+   top: 120px;
+   left: 60px;
+   padding-bottom: 60px;
+`
+export const LiveContainer = styled.div`
     display: block;
    position: absolute;
    top: 120px;
    right: 60px;
+   background: rgb(255,239,49);
+    background: linear-gradient(180deg, rgba(255,239,49,0.4738270308123249) 35%, rgba(255,111,0,0.4290091036414566) 100%);
 `
 export const Label = styled.label`
    display: block;

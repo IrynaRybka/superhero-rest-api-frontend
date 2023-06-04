@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import {Button, Container, Input, Label, Text} from './CreateHero.styled';
+import {Button, Container, Input, Label, LiveContainer, Text} from './CreateHero.styled';
 
 
 export const Hero = () => {
@@ -43,7 +43,7 @@ export const Hero = () => {
 
   return (
     <>
-      <form onSubmit={handleSubmit} >
+      <Container onSubmit={handleSubmit} >
         <Label>
           Nickname:
           <Input type="text" name="nickname" value={formData.nickname} onChange={handleChange} />
@@ -74,8 +74,8 @@ export const Hero = () => {
           <Input type="text" name="images" value={formData.images} onChange={handleChange} placeholder='Copy URL picture in internet and paste'/>
         </Label>
         <Button type="submit">Create Hero</Button>
-      </form>
-      <Container
+      </Container>
+      <LiveContainer
         style={{
           maxWidth: "280px",
           marginLeft: "60px"
@@ -100,7 +100,7 @@ export const Hero = () => {
             <p>Catch Phrase: {formData.catch_phrase}</p>
           </li>
         </ul>
-      </Container> 
+      </LiveContainer> 
       </>
   );
 };

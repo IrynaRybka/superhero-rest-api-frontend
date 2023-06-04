@@ -2,6 +2,7 @@ import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { HomePage } from './HomePage/HomePage';
 import { Home } from '../pages/Home/Home';
+import css from './HomePage/Home.module.css';
 
 const Hero = lazy(() => import('./CreateHero/CreateHero').then(module => ({...module, default: module.Hero})));
 
@@ -9,7 +10,7 @@ const HeroesDetails = lazy(() => import('./HeroDetailsComponent/HeroDetailsCompo
 
 export const App = () => {
   return (
-    <div className="app">
+    <div className={css.app}>
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<Home />} />
